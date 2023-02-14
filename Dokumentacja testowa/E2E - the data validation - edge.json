@@ -1,0 +1,201 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-02-14T19:56:26.105Z",
+    "end": "2023-02-14T19:56:31.095Z",
+    "duration": 4990,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "350864ae-c393-4714-96c1-a9a63078003b",
+      "title": "",
+      "fullFile": "cypress/integration/registration-form.js",
+      "file": "cypress/integration/registration-form.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6f570416-1a80-4e09-b6cc-801b36816dbc",
+          "title": "E2E - The data validation",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Kliknięcie na element",
+              "fullTitle": "E2E - The data validation Kliknięcie na element",
+              "timedOut": null,
+              "duration": 2114,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('http://127.0.0.1:5500/registration-form.html');\ncy.contains('[class=\"send\"]', 'Wyślij').click();",
+              "err": {},
+              "uuid": "7a65bd21-d063-4e85-8601-07b4922e11e7",
+              "parentUUID": "6f570416-1a80-4e09-b6cc-801b36816dbc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Wpisywanie wartości w pole",
+              "fullTitle": "E2E - The data validation Wpisywanie wartości w pole",
+              "timedOut": null,
+              "duration": 567,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(\"#username\").type(\"Tester\", 1200);\ncy.contains('[class=\"send\"]', 'Wyślij').click();",
+              "err": {},
+              "uuid": "7aa40b0a-5f66-4a72-88b9-84b0c3f72c02",
+              "parentUUID": "6f570416-1a80-4e09-b6cc-801b36816dbc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Wpisywanie wartości w pole",
+              "fullTitle": "E2E - The data validation Wpisywanie wartości w pole",
+              "timedOut": null,
+              "duration": 441,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(\"#password\").type(\"Tester123\", 1200);\ncy.contains('[class=\"send\"]', 'Wyślij').click();",
+              "err": {},
+              "uuid": "d22fbf5d-e2cd-4729-8e68-2428e22a2cc6",
+              "parentUUID": "6f570416-1a80-4e09-b6cc-801b36816dbc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Wpisywanie wartości w pole",
+              "fullTitle": "E2E - The data validation Wpisywanie wartości w pole",
+              "timedOut": null,
+              "duration": 458,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(\"#password2\").type(\"Tester123\", 1200);\ncy.contains('[class=\"send\"]', 'Wyślij').click();",
+              "err": {},
+              "uuid": "bd6e7d0f-662a-466e-9e3a-ed399f01fcb5",
+              "parentUUID": "6f570416-1a80-4e09-b6cc-801b36816dbc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Wpisywanie wartości w pole",
+              "fullTitle": "E2E - The data validation Wpisywanie wartości w pole",
+              "timedOut": null,
+              "duration": 596,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(\"#email\").type(\"Tester@tester.pl\", 1200);\ncy.contains('[class=\"send\"]', 'Wyślij').click();",
+              "err": {},
+              "uuid": "62cf5ede-b9ec-4ed0-8268-a5ffba3a8336",
+              "parentUUID": "6f570416-1a80-4e09-b6cc-801b36816dbc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Kliknięcie na element",
+              "fullTitle": "E2E - The data validation Kliknięcie na element",
+              "timedOut": null,
+              "duration": 676,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('[class=\"close\"]', 'Zamknij').click();",
+              "err": {},
+              "uuid": "ccc2c418-5938-4bd8-b651-2af6c931812e",
+              "parentUUID": "6f570416-1a80-4e09-b6cc-801b36816dbc",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7a65bd21-d063-4e85-8601-07b4922e11e7",
+            "7aa40b0a-5f66-4a72-88b9-84b0c3f72c02",
+            "d22fbf5d-e2cd-4729-8e68-2428e22a2cc6",
+            "bd6e7d0f-662a-466e-9e3a-ed399f01fcb5",
+            "62cf5ede-b9ec-4ed0-8268-a5ffba3a8336",
+            "ccc2c418-5938-4bd8-b651-2af6c931812e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4852,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

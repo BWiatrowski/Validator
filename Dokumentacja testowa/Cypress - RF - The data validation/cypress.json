@@ -1,0 +1,14 @@
+{
+	"baseUrl": "http://127.0.0.1:5500/registration-form.html",
+	"includeShadowDom": true,
+	"chromeWebSecurity": true,
+	"viewportHeight": 1080,
+	"viewportWidth": 1920,
+	"video": true,
+	"theme": "dark",
+	"reporter": "cypress-multi-reporters",
+	"reporterOptions": {
+		"configFile": "reporter-config.json"
+	}
+}
+
