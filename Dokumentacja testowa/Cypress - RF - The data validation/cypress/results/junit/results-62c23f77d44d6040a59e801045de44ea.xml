@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.192" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-02-14T19:55:46" tests="0" file="cypress/integration/registration-form.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="E2E - The data validation" timestamp="2023-02-14T19:55:47" tests="6" time="4.037" failures="0">
+    <testcase name="E2E - The data validation Kliknięcie na element" time="1.536" classname="Kliknięcie na element">
+    </testcase>
+    <testcase name="E2E - The data validation Wpisywanie wartości w pole" time="0.445" classname="Wpisywanie wartości w pole">
+    </testcase>
+    <testcase name="E2E - The data validation Wpisywanie wartości w pole" time="0.522" classname="Wpisywanie wartości w pole">
+    </testcase>
+    <testcase name="E2E - The data validation Wpisywanie wartości w pole" time="0.465" classname="Wpisywanie wartości w pole">
+    </testcase>
+    <testcase name="E2E - The data validation Wpisywanie wartości w pole" time="0.574" classname="Wpisywanie wartości w pole">
+    </testcase>
+    <testcase name="E2E - The data validation Kliknięcie na element" time="0.528" classname="Kliknięcie na element">
+    </testcase>
+  </testsuite>
+</testsuites>
